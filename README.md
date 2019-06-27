@@ -1,3 +1,3 @@
 # react
 ReactJS tuts and examples
-- Adding Tic Tac Toe
+- Tic Tac Toe using immutable data for jumping to move history positions
