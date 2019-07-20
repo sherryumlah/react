@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.counter {
+  float: left;
+  padding: 0.25rem;
+}
+
+.counter-action { 
+  border-radius: 0.25rem;
+  float: left; 
+  padding: 0.25rem 0.5rem;
+}
+
+.counter-score { 
+  background: #fff;
+  color: #000;
+  float: left; 
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  padding: 0 0.55rem;
+}
+
+.decrement {}
+
+.increment {}
+
+.player {
+  height: 3rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+.player:last-child{
+  margin-bottom: 0;
+}
+
+.player:nth-child(odd) {
+  background-color: #777;
+}
+
+.player-board {
+  border: 1px solid #fff;
+}
+
+.player-name { 
+  float: left; 
+  margin-right: 1rem;
+}
+
+.player-name-input {
+  font-size: 1rem;
+}
+
+.stats {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
