@@ -11,19 +11,15 @@ function App() {
     }
 
     decrementScore = () => {
-      this.setState( prevState => {
-        return {
+      this.setState( prevState => ({
           score: prevState.score - 1          
-        };
-      });
+      }));
     }
 
     incrementScore = () => {
-      this.setState( prevState => {
-        return {
+      this.setState( prevState => ({
           score: prevState.score + 1  
-        }
-      });
+      }));
     }
 
     render (){
